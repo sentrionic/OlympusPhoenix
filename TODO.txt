@@ -1,0 +1,5 @@
+- Swagger Docs
+- ValidationError
+- Email Sending
+- Redis to store reset token
+- Image Resizing

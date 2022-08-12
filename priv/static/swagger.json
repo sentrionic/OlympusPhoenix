@@ -1,0 +1,38 @@
+{
+  "tags": [
+    {
+      "name": "Users",
+      "description": "User resources"
+    }
+  ],
+  "swagger": "2.0",
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "Cookie",
+      "name": "Authorization",
+      "in": "header",
+      "description": "API Token must be provided via `Authorization: Bearer ` header"
+    }
+  },
+  "schemes": [
+    "http",
+    "https",
+    "ws",
+    "wss"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {},
+  "info": {
+    "version": "1.0",
+    "title": "OlympusBlog",
+    "termsOfService": "Open for public",
+    "description": "API Documentation for OlympusBlog v1"
+  },
+  "host": "localhost:4000",
+  "definitions": {},
+  "consumes": [
+    "application/json"
+  ]
+}
